@@ -1,0 +1,16 @@
+# foto → papiroflexia — dependencias de Python (probado con Python 3.13)
+# Instala con:  python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+#
+# Aparte de estas, necesitas Blender (usado en modo headless para la malla low-poly
+# y los renders) e ImageMagick (comando `magick`, para unir las vistas del preview).
+
+numpy>=2.0
+pillow>=10
+scipy>=1.11
+scikit-image>=0.22
+pycairo>=1.26
+shapely>=2.0
+
+# Opcional: recorte del fondo con IA (--segmentar ia). Arrastra onnxruntime.
+# Si no lo instalas, usa el recorte clásico por luminancia (--segmentar auto).
+rembg>=2.0

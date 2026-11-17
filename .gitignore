@@ -1,0 +1,20 @@
+# entorno
+.venv/
+__pycache__/
+*.pyc
+
+# salidas y material pesado (se regenera con la herramienta)
+out/
+entrega/
+*.MP4
+*.mp4
+*.glb
+*.stl
+
+# fotos de entrada propias / material personal (pon aquí las tuyas sin que acaben en el repo)
+fotosMina/
+fotos/
+pngtree-*.png
+
+# macOS
+.DS_Store
